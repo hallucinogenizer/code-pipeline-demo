@@ -6,4 +6,6 @@ export NVM_DIR="$HOME/.nvm"
 nvm install v18.18.2
 node --version
 npm install -g pm2
-pm2 start server.js
+cd /home/ubuntu/code-pipeline-demo
+npm install
+pm2 start /home/ubuntu/code-pipeline-demo/server.js
